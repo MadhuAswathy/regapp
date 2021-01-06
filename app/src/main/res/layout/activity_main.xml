@@ -1,0 +1,75 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/ema"
+            android:drawableLeft="@drawable/mail"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+          android:id="@+id/pass"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/pass"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="Login"
+            android:onClick="mybtnclick"
+            android:textColor="#CDDC39"
+            android:textSize="24dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:background="@drawable/buttonstyle"
+    android:onClick="Register"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
